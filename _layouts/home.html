@@ -7,9 +7,21 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">{{ page.title | escape }}</h1>
   </header>
+  <div class="home-wrapper">
+    <div class="home-content">
+      <div class="post-content">
+        {{ content }}
+      </div>
+    </div>
 
-  <div class="post-content">
-    {{ content }}
+    <div class="home-project">
+      <a href="https://strangeadventures.in"><img class="img-responsive img-portfolio" src="https://i.imgur.com/vqikwit.png?1" alt="Image of https://strangeadventures.in"></a>
+      <p class="portfolio-subtitle"><em>Strange Adventures In...</em></br>My blog and experiment in Ghost theming</p>
+    </div>
+
+    <div class="home-project">
+      <a href="https://github.com/philskents"><img class="img-responsive img-portfolio" src="https://i.imgur.com/ai2Dlqf.png?2" alt="Image of https://github.com/philskents"></a>
+      <p class="portfolio-subtitle"><em>GitHub</em></br>Home to my menagerie of coding projects</p>
+    </div>
   </div>
-  
 </div>
