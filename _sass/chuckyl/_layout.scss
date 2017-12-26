@@ -102,7 +102,23 @@
   }
 }
 
+/**
+ * Home page format
+ */
 
+ .home-wrapper {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  /**grid-template-rows: 40px 100px 40px;**/
+}
+
+.home-content {
+  grid-column: span 12;
+}
+
+.home-project {
+  grid-column: span 6;
+} 
 
 /**
  * Site footer
